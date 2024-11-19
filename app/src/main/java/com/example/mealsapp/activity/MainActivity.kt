@@ -1,6 +1,7 @@
 package com.example.mealsapp.activity
 
-import android.os.Build.VERSION_CODES.R
+import com.example.mealsapp.R
+
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import androidx.lifecycle.ViewModelProvider
@@ -10,6 +11,8 @@ import com.example.mealsapp.dp.MealDatabase
 import com.example.mealsapp.viewModel.HomeViewModel
 import com.example.mealsapp.viewModel.HomeViewModelFactory
 import com.google.android.material.bottomnavigation.BottomNavigationView
+
+
 
 class MainActivity : AppCompatActivity() {
     val viewModel: HomeViewModel by lazy {
